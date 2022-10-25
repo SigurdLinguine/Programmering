@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style6.css">
+</head>
+<body>
+    
+    <img src="https://www.uncovercolorado.com/wp-content/uploads/2021/12/rocky-mountains-colorado-mount-elbert-1600x800.jpg" alt="rockyMountains">
+
+    <div class="infoBox">
+        <h2>Rocky Mountains</h2>
+        <p>A large mountain range</p>
+    </div>
+
+</body>
+</html>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 1440px;
+    height: 767px;
+}
+
+.infoBox {
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    position: relative;
+    left: 1140px;
+    bottom: 100px;
+    padding: 10px;
+    max-width: 237px;
+}
+
+.infoBox p {
+    font-size: 25px;
+}
+</style>
