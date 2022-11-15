@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style9.css">
+    <title>Florida</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="image"><img src="https://cdn.thecrazytourist.com/wp-content/uploads/2017/07/Sunset-over-the-Gulf-of-Mexico-from-the-Southernmost-Point-in-Key-West-Florida.jpg" alt="image"></div>
+        <div class="text">
+            <h3>November 8th</h3>
+            <br>
+            <p>As the sun descends and the world i plunged into an eternal darkness, I can only watch as humanity dies.</p>
+            <br>
+            <p>#nobaddays #onvacation #outofoffice #sun #sea #stophammocktime #surf #hawaii</p>
+        </div>
+    </div>
+
+</body>
+</html>
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+}
+
+img{
+    height: 767px;
+    width: 750px;
+}
+
+h3, p{
+    display: flex;
+    align-items: center;
+    width: 400px;
+    margin-left: 170px;
+    font-size: 20px;
+}
