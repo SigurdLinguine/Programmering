@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style6.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div>Home</div>
+        <div>About</div>
+        <div>Product</div>
+        <div>Contact</div>
+    </div>
+
+</body>
+</html>
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: blue;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container div{
+    margin-left: 50px;
+    margin-right: 5px;
+}
