@@ -223,3 +223,59 @@
 .otherright p:hover{
     cursor: pointer;
 }
+
+
+README FIL:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Read Me</title>
+</head>
+<body>
+
+    <h1>Table of Contents</h1>
+
+    <ul>
+        <li>Overview</li>
+        <li>Built With</li>
+        <li>Features</li>
+        <li>How to Use</li>
+        <li>Contact</li>
+    </ul>
+
+    <h1>Overview</h1>
+
+    <img src="https://cdn.discordapp.com/attachments/783984430653898753/1046873134130798612/image.png" alt="homepageimage" style="width: 500px;">
+
+    <p>Dette er Google's Homepage, som jeg har laget.</p>
+
+    <h1>Built With</h1>
+
+    <ul>
+        <li><a href="https://www.w3schools.com/html/">HTML</a></li>
+        <li><a href="https://www.w3schools.com/css/">CSS</a></li>
+    </ul>
+    
+    <h1>Features</h1>
+
+    <p>Knappene under søkefeltet får musa til å endre form og lager en border rundt seg selv når musa holdes over dem.</p>
+
+    <h1>How to Use</h1>
+
+    <p><a href="https://www.w3schools.com/css/css3_flexbox.asp">HTML / CSS</a></p>
+
+    <h1>Contact</h1>
+
+    <ul>
+        <li>GitHub : <a href="https://github.com/SigurdLinguine">SigurdLinguine</a></li>
+        <li>Epost : <a href="https://mail.google.com/mail">sigurd.brynje@gmail.com</a></li>
+    </ul>
+
+    <h1>Happy Coding!</h1>
+
+</body>
+</html>
