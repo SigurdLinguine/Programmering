@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Nettside</title>
+</head>
+<body>
+    
+<div class="container">
+    <div class="full-width">
+        <img src="https://www.adobe.com/express/learn/blog/media_1d655233eb376c5272e418b6de9c75bd7610aa558.png?width=750&format=png&optimize=medium" alt="logo">
+    </div>
+    <nav>
+        <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="full-width margin-top20px">
+        <div class="col-7">
+            <div class="post">
+                <h1>What is Lorem Ipsum?</h1>
+                <img src="https://cdn.discordapp.com/attachments/1030152915358334986/1046881730591731832/o_ma_gah.jpg" alt="iminshock">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis voluptatum porro illum odit enim magnam fugit autem velit, cum nam maiores adipisci fugiat, magni sit nobis. Rerum, quis. Error, temporibus.
+                Officiis, delectus assumenda eligendi magni autem earum. Iure ratione odio voluptatibus nulla minus quo architecto, natus ullam, quas ea, nesciunt tenetur? Vel nobis, molestiae quaerat error debitis quod. Vel, itaque.
+                Nostrum suscipit saepe ratione similique fugiat reiciendis, et, maiores eum animi itaque nam officia totam quaerat quod a reprehenderit eligendi consectetur ipsum. Minima, a? Nisi magni quas quis qui aliquam?</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam corporis tempora sint maiores unde. Ipsa maxime voluptates praesentium, iusto officiis eaque laudantium unde ad ut, sapiente dolorum provident quos quidem.
+                Doloribus excepturi quos blanditiis laudantium ratione veritatis eligendi accusantium cupiditate sapiente eius? Harum nesciunt, nisi facere aperiam quibusdam magnam eaque, laborum sit ut modi delectus, dolor maiores ducimus sint reiciendis.</p>
+            </div>
+
+            <div class="post margin-top20px">
+                <h1>Why Do We Use It?</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, ab molestiae odit adipisci enim laboriosam vero temporibus omnis, laudantium eaque dolorem. Veniam quisquam assumenda necessitatibus accusantium repellendus autem nemo voluptatibus!
+                Sequi eligendi officiis modi ea suscipit, eos molestiae, dolorum autem pariatur neque consequatur et impedit eaque temporibus nisi quos placeat! Fugit repellat eos quibusdam natus explicabo eius omnis praesentium fuga.</p>
+            </div>
+        </div>
+        <div class="col-3">
+            <h1>Sidebar</h1>
+            <ul>
+                <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+            </ul>
+        </div>
+        <div style="clear: both;"></div>
+    </div>
+    <div class="full-width">
+        <p class="footer-text">© 2022 Linguine Productions. Design For You</p>
+    </div>
+</div>
+
+</body>
+</html>
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #ccc;
+}
+
+.container{
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    min-height: 400px;
+}
+
+.full-width{
+    width: 100%;
+}
+
+.full-width img{
+    height: 80px;
+}
+
+nav{
+    width: 100%;
+}
+
+nav ul{
+    margin: 20px 0 0;
+    padding: 0;
+    border-radius: 4px;
+    background: #262626;
+    overflow: hidden;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li a{
+    display: block;
+    padding: 15px 20px;
+    color: #fff;
+    text-decoration: none;
+}
+.active,
+nav ul li a:hover{
+    background: #f00;
+}
+
+.col-7{
+    width: 70%;
+    min-height: 400px;
+    background: #ccc;
+    float: left;
+}
+
+.col-3{
+    width: 28%;
+    min-height: 400px;
+    background: #f1f1f1;
+    float: right;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.col-3 ul{
+    margin: 0;
+    padding: 0;
+}
+
+.col-3 ul li{
+    list-style: none;
+    padding: 8px;
+    border-bottom: 1px solid rgba(0, 0, 0,0.1);
+}
+
+.col-3 ul li:hover{
+    background: #f00;
+    color: #fff;
+}
+
+.margin-top20px{
+    margin-top: 20px;
+}
+
+.post{
+    background: #ccc;
+    padding: 20px;
+    background: #f1f1f1;
+}
+
+.post img{
+    width: 700px;
+    height: 400px;
+}
+
+h1{
+    margin: 10px;
+}
+
+.footer-text{
+    padding-top: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+@media (max-width: 900px){
+    .container{
+        width: 100%;
+    }
+    nav ul li{
+        display: block;
+        text-align: center;
+    }
+    .col-7,
+    .col-3{
+        width: 100%;
+        float: none;
+    }
+    .col-3{
+        margin-top: 20px;
+    }
+}
