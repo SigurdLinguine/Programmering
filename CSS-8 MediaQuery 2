@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Our Team</title>
+</head>
+<body>
+    
+    <h1>The Creative Crew</h1>
+
+    <div class="description">
+        <h3>WHO WE ARE</h3>
+        <p>We are team of creatively diverse, driven, innovative individuals working in various locations from the world.</p>
+    </div>
+
+    <div class="bill-mahoney">
+        <img src="https://m.media-amazon.com/images/M/MV5BOTNmZGU0MDYtNDE4Zi00NTE4LTg0ZGEtYzBjOWNjOTkwMzdlXkEyXkFqcGdeQXVyMTg3Nzg5ODY@._V1_.jpg" alt="rick-astley">
+
+        <p class="one">Rick Astley</p>
+
+        <span class="two">PRODUCT OWNER</span>
+    </div>
+
+    <div class="gordon-ramsay">
+
+        <img src="https://www.hachettebookgroup.com/wp-content/uploads/2017/06/GR.jpg?resize=500%2C700" alt="gordon-ramsay">
+        
+        <p class="three">Gordon Ramsay</p>
+
+        <span class="four">TEAM CHEF</span>
+
+    </div>
+    
+    <div class="mike">
+
+        <img src="https://upload.wikimedia.org/wikipedia/en/e/ea/Mike_Ehrmantraut_BCS_S3.png" alt="kid named finger">
+
+        <p class="five">Michael Ehrmantrout</p>
+
+        <span class="six">HEAD OF SECURITY</span>
+
+    </div>
+
+</body>
+</html>
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    margin: 10px;
+    position: fixed;
+    left: 200px;
+}
+
+.description{
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    position: fixed;
+    top: 0px;
+    left: 600px;
+    margin: 10px;
+}
+
+.bill-mahoney .one{
+    position: fixed;
+    left: 160px;
+    top: 530px;
+}
+
+.bill-mahoney .two{
+    writing-mode: vertical-lr;
+    position: fixed;
+    left: 360px;
+    top: 232px;
+}
+
+.bill-mahoney img{
+    width: 200px;
+    border-radius: 8px;
+    position: fixed;
+    left: 160px;
+    top: 230px;
+}
+
+.gordon-ramsay .three{
+    position: fixed;
+    left: 460px;
+    top: 580px;
+}
+
+.gordon-ramsay .four{
+    position: fixed;
+    left: 660px;
+    top: 300px;
+    writing-mode: vertical-lr;
+}
+
+.gordon-ramsay img{
+    width: 200px;
+    border-radius: 8px;
+    position: fixed;
+    left: 460px;
+    top: 300px;
+}
+
+.mike img{
+    width: 200px;
+    border-radius: 8px;
+    position: fixed;
+    left: 760px;
+    top: 230px;
+}
+
+.mike .five{
+    position: fixed;
+    left: 760px;
+    top: 515px;
+}
+
+.mike .six{
+    position: fixed;
+    left: 960px;
+    top: 232px;
+    writing-mode: vertical-lr;
+}
+
+@media (max-width: 980px)
+{
+    .description{
+        position: fixed;
+        top: 60px;
+        left: 200px;
+    }
+
+    .mike img{
+        left: 160px;
+        top: 640px;
+    }
+    .mike .five{
+        left: 160px;
+        top: 800px;
+    }
+
+    .mike .six{
+        top: 640px;
+        left: 360px;
+    }
+}
